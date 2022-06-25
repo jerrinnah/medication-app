@@ -1,0 +1,96 @@
+:root {
+    --primary: #8e97fd;
+    --warning: #ffd028;
+    --danger: #eb3f27;
+    --success: #75fa83;
+    --white: #fdfdfd;
+    --dark: #181717;
+   
+}
+
+.btn{
+    font-family: "Roboto", sans-serif, Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight:400 ;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+/*btn colors n style*/
+
+.btn--primary--solid {
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    padding: 10px;
+
+}
+.btn--warning--solid {
+    background-color: var(--warning);
+    color: var(--warning);
+    border: none;
+    padding: 10px;
+}
+.btn--successs--solid {
+    background-color: var(--success);
+    color: var(--white);
+    border: none;
+    padding: 10px;
+}
+.btn--danger--solid {
+    background-color: var(--danger);
+    color: var(--white);
+    border: none;
+    padding: 10px;
+}
+.btn--theme--outline {
+    background-color: transparent;
+    color: var(--theme);
+    border: 2px solid var(--theme);
+    padding: 10px;
+}
+.btn--primary--outline {
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 10px;
+}
+.btn--warning--outline {
+    background-color: transparent;
+    color: var(--warning);
+    border: 2px solid var(--warning);
+    padding: 10px;
+}
+.btn--success--outline {
+    background-color: transparent;
+    color: var(--success);
+    border: 2px solid var(--success);
+    padding: 10px;
+}
+.btn--danger--outline {
+    background-color: transparent;
+    color: var(--danger);
+    border: 2px solid var(--danger);
+    padding: 10px;
+}
+
+/* Button Sizes */
+
+.btn--medium {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.btn--small {
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.btn--long {
+    padding: 1.5rem 9rem;
+    font-size: 15px;
+   
+}

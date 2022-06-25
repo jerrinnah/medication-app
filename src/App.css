@@ -1,0 +1,226 @@
+
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;800&family=Roboto:ital,wght@0,100;0,500;1,500;1,900&display=swap');
+
+
+/* css variables */
+:root {
+  /* colors */
+  --body-color: rgb(255, 255, 255);
+  --text-color: "#000000";
+  --template-color: rgb(7, 59, 228);
+
+  /* fonts */
+  --body-font: "Poppins", sans-serif;
+
+  /* spaces & size */
+  --body-font-size: 1rem;
+}
+
+/* General */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--body-color);
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-image {
+    width: 300px;
+    height: auto;
+}
+
+.logo-icon{
+  height: auto;
+  width: 10px;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* ----------- */
+
+
+
+.App{
+  height: 796px;
+  width: 414px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.App-logo{
+  
+  position: absolute;
+  left: 120px;
+  top: 50px;
+}
+.bannerGirl{
+  
+  position: absolute;
+  left: 50px;
+  top: 170px;
+}
+.nav{
+  height: 20px;
+  width: 100%;
+  background-color: transparent;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.banner{
+  min-height: 480px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.834)
+}
+.banner-img{
+  height: auto;
+  width: 100%;
+
+}
+.text__section{
+  height: auto;
+  width: 100%;
+  align-items: center;
+  /* background-color: rgb(224, 41, 8); */
+}
+
+.cta__title{
+  /* background-color: blue; */
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: -10px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 600;
+}
+.cta__para{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: -10px;
+  color: gray;
+  
+}
+.footer__cta{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px 5px 30px;
+  /* background-color: aqua; */
+  align-items: center;
+  
+}
+.footer__cta  p {
+  color: rgb(137, 137, 139);
+  font-size: 10px;
+}
+.footer__cta span {
+  color: var(--primary);
+}
+
+
+
+
+/* Sign in page */
+.signin__page{
+  height: 50rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(15, 60, 172); */
+}
+
+.SignInBg{
+  height: 16rem;
+  width: 100%;
+  background-color: rgb(254, 254, 254);
+}
+
+.left-icon{
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  top: 3rem;
+  left: 1rem;
+}
+
+.signIn__buttons{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+.SignInBg h1{
+  position: absolute;
+  top: 9rem;
+  left: 5.3rem;
+ 
+}
+
+.fb-btn{
+  height: auto;
+  width: 100%;
+ 
+  display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+
+
+
+
